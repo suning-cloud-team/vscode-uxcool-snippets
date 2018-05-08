@@ -1,0 +1,44 @@
+{
+  "name": "vscode-uxcool-snippet",
+  "version": "0.0.1",
+  "description": "UXCool snippets",
+  "icon": "icon/icon.png",
+  "publisher": "njueyupeng",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/njueyupeng/vscode-uxcool-snippets.git"
+  },
+  "galleryBanner": {
+    "color": "#0273D4",
+    "theme": "dark"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["uxcool","uxcool-vue","uxcool-snippets"],
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "author":{
+    "name": "njueyupeng",
+    "email": "1196194875@qq.com",
+    "url": "https://github.com/njueyupeng"
+  },
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
+  "contributes":{
+    "snippets": [
+      {
+        "language": "vue",
+        "path":"./snippets/uxcool-snippets.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/njueyupeng/vscode-uxcool-snippets/issues"
+  },
+  "homepage": "https://github.com/njueyupeng/vscode-uxcool-snippets/readme",
+  "license": "MIT"
+}

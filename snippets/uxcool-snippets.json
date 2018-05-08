@@ -1,0 +1,514 @@
+{
+	"btn-primary": {
+		"prefix": "ux-button-primary",
+		"body": [
+			"<ux-button type=\"primary\">${1:文字}</ux-button>"
+		],
+		"description": "Primary Button"
+	},
+
+	"btn-default": {
+		"prefix": "ux-button-default",
+		"body": [
+			"<ux-button >${1:文字}</ux-button>"
+		],
+		"description": "Default Button"
+	},
+
+	"btn-dashed": {
+		"prefix": "ux-button-dashed",
+		"body": [
+			"<ux-button type=\"dashed\">${1:文字}</ux-button>"
+		],
+		"description": "Dashed Button"
+	},
+
+	"btn-danger": {
+		"prefix": "ux-button-danger",
+		"body": [
+			"<ux-button type=\"danger\">${1:文字}</ux-button>"
+		],
+		"description": "Danger Button"
+	},
+
+	"breadcrumb": {
+		"prefix": "ux-breadcrumb",
+		"body": [
+			"<ux-breadcrumb >",
+			"\t<ux-breadcrumb-item>${1:导航1}</ux-breadcrumb-item>",
+			"\t<ux-breadcrumb-item>${2:导航2}</ux-breadcrumb-item>",
+			"\t<ux-breadcrumb-item>${3:导航3}</ux-breadcrumb-item>",
+			"</ux-breadcrumb >"
+		],
+		"description": "最基本面包屑"
+	},
+
+	"breadcrumb-link": {
+		"prefix": "ux-breadcrumb-link",
+		"body": [
+			"<ux-breadcrumb>",
+			"\t<ux-breadcrumb-item href=\"${1:https://www.suning.com}\" target=\"_blank\">${2:苏宁}</ux-breadcrumb-item>",
+			"\t<ux-breadcrumb-item href=\"https://www.baidu.com\">百度</ux-breadcrumb-item>",
+			"\t<ux-breadcrumb-item>",
+			"\t\t<a href=\"http://uxcool.cnsuning.com\">uxcool</a>",
+			"\t</ux-breadcrumb-item>",
+			"\t<ux-breadcrumb-item>列表页</ux-breadcrumb-item>",
+			"</ux-breadcrumb>"
+		],
+		"description": "自定义面包屑链接"
+	},
+
+	"checkbox-base": {
+		"prefix": "ux-checkbox",
+		"body": [
+			"<ux-checkbox v-model=\"checked\"></ux-checkbox>"
+		],
+		"description": "最基本多选框"
+	},
+
+	"card": {
+		"prefix": "ux-card",
+		"body": [
+			"<ux-card>",
+			"\t<template slot=\"title\">${1:卡片标题}</template>",
+			"\t${2:卡片内容}",
+			" </ux-card>"
+		],
+		"description": "Card卡片"
+	},
+
+	"backtop": {
+		"prefix": "ux-backtop",
+		"body": [
+			"<ux-backtop style=\"bottom:100px\">",
+			"<span class=\"to-top\">T</span>",
+			" </ux-backtop>"
+		],
+		"description": "返回顶部"
+	},
+
+	"tooltip-topLeft": {
+		"prefix": "ux-tooltip-topLeft",
+		"body": [
+			"<ux-tooltip placement=\"topLeft\" :content=\"buildContent('Top-Left')\">",
+			"\t<button class=\"ux-btn\">Top-Left</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-topLeft"
+	},
+
+	"tooltip-top": {
+		"prefix": "ux-tooltip-top",
+		"body": [
+			"<ux-tooltip placement=\"top\" :content=\"buildContent('Top')\">",
+			"\t<button class=\"ux-btn\">Top</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-top"
+	},
+
+	"tooltip-topRight": {
+		"prefix": "ux-tooltip-topRight",
+		"body": [
+			"<ux-tooltip placement=\"topRight\" :content=\"buildContent('Top-Right')\">",
+			"\t<button class=\"ux-btn\">Top-Right</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-topRight"
+	},
+
+	"tooltip-leftTop": {
+		"prefix": "ux-tooltip-leftTop",
+		"body": [
+			"<ux-tooltip placement=\"leftTop\" :content=\"buildContent('Left-Top')\">",
+			"\t<button class=\"ux-btn\">leftTop</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-leftTop"
+	},
+
+	"tooltip-left": {
+		"prefix": "ux-tooltip-left",
+		"body": [
+			"<ux-tooltip placement=\"left\" :content=\"buildContent('left')\">",
+			"\t<button class=\"ux-btn\">left</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-left"
+	},
+
+	"tooltip-leftBottom": {
+		"prefix": "ux-tooltip-leftBottom",
+		"body": [
+			"<ux-tooltip placement=\"leftBottom\" :content=\"buildContent('leftBottom')\">",
+			"\t<button class=\"ux-btn\">leftBottom</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-leftBottom"
+	},
+
+	"tooltip-rightTop": {
+		"prefix": "ux-tooltip-rightTop",
+		"body": [
+			"<ux-tooltip placement=\"rightTop\" :content=\"buildContent('rightTop')\">",
+			"\t<button class=\"ux-btn\">rightTop</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-rightTop"
+	},
+
+	"tooltip-right": {
+		"prefix": "ux-tooltip-right",
+		"body": [
+			"<ux-tooltip placement=\"right\" :content=\"buildContent('right')\">",
+			"\t<button class=\"ux-btn\">right</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-right"
+	},
+
+	"tooltip-rightBottom": {
+		"prefix": "ux-tooltip-rightBottom",
+		"body": [
+			"<ux-tooltip placement=\"rightBottom\" :content=\"buildContent('rightBottom')\">",
+			"\t<button class=\"ux-btn\">rightBottom</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-rightBottom"
+	},
+
+	"tooltip-bottomLeft": {
+		"prefix": "ux-tooltip-bottomLeft",
+		"body": [
+			"<ux-tooltip placement=\"bottomLeft\" :content=\"buildContent('bottomLeft')\">",
+			"\t<button class=\"ux-btn\">bottomLeft</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-bottomLeft"
+	},
+
+	"tooltip-bottom": {
+		"prefix": "ux-tooltip-bottom",
+		"body": [
+			"<ux-tooltip placement=\"bottom\" :content=\"buildContent('bottom')\">",
+			"\t<button class=\"ux-btn\">bottom</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-bottom"
+	},
+
+	"tooltip-bottomRight": {
+		"prefix": "ux-tooltip-bottomRight",
+		"body": [
+			"<ux-tooltip placement=\"bottomRight\" :content=\"buildContent('bottomRight')\">",
+			"\t<button class=\"ux-btn\">bottomRight</button>",
+			"</ux-tooltip>"
+		],
+		"description": "ToolTip-bottomRight"
+	},
+
+	"spin-small": {
+		"prefix": "ux-spin-small",
+		"body": [
+			"<ux-spin size=\"small\" tip=\"small\"></ux-spin>"
+		],
+		"description": "加载动画-small"
+	},
+
+	"spin-normal": {
+		"prefix": "ux-spin-normal",
+		"body": [
+			"<ux-spin  tip=\"normal\"></ux-spin>"
+		],
+		"description": "加载动画-normal"
+	},
+
+	"spin-large": {
+		"prefix": "ux-spin-large",
+		"body": [
+			"<ux-spin size=\"large\" tip=\"large\"></ux-spin>"
+		],
+		"description": "加载动画-large"
+	},
+
+	"popover-hover": {
+		"prefix": "ux-popover-hover",
+		"body": [
+			"<ux-popover trigger=\"hover\"",
+			"\tcontent=\"hover激活\">",
+			"\t<button class=\"ux-btn\">",
+			"\t\thover激活",
+			"\t</button>",
+			"</ux-popover>"
+		],
+		"description": "悬浮框-hover激活"
+	},
+
+	"popover-click": {
+		"prefix": "ux-popover-click",
+		"body": [
+			"<ux-popover trigger=\"click\"",
+			"\tcontent=\"click激活\">",
+			"\t<button class=\"ux-btn\">",
+			"\t\tclick激活",
+			"\t</button>",
+			"</ux-popover>"
+		],
+		"description": "悬浮框-click激活"
+	},
+
+	"popover-focus": {
+		"prefix": "ux-popover-focus",
+		"body": [
+			"<ux-popover trigger=\"focus\"",
+			"\tcontent=\"focus激活\">",
+			"\t<button class=\"ux-btn\">",
+			"\t\tfocus激活",
+			"\t</button>",
+			"</ux-popover>"
+		],
+		"description": "悬浮框-focus激活"
+	},
+
+	"popover-custom": {
+		"prefix": "ux-popover-custom",
+		"body": [
+			"<ux-popover :content=\"innerContent\">",
+			"${1:自定义标题}",
+			"<span slot=\"title\"",
+			"style=\"color:red\">标题红</span>",
+			"</ux-popover>"
+		],
+		"description": "悬浮框-自定义标题"
+	},
+
+	"Modal": {
+		"prefix": "ux-Modal",
+		"body": [
+			"<ux-modal v-model=\"visible\"",
+			"\ttitle=\"${1:Basic}\"",
+			"\t@ok=\"onOk($event, 'basic')\"",
+			"\t@cancel=\"onCancel($event, 'basic')\"",
+			"\t@close=\"onClose\"",
+			"\t@after-close=\"${2:onAfterClose}\">",
+			"\t<p>contents</p>",
+			"\t<p>contents</p>",
+			"\t<p>contents</p>",
+			"\t<p>contents</p>",
+			"</ux-modal>"
+		],
+		"description": "最基本模态框"
+	},
+
+	"Modal-header": {
+		"prefix": "ux-Modal-header",
+		"body": [
+			"<ux-modal v-model=\"headerVisible\"",
+			"\t\t@ok=\"onOk($event, 'custom header')\"",
+			"\t\t@cancel=\"onCancel($event, 'custom header')\">",
+			"\t<div slot=\"title\">",
+			"\t\t<ux-icon type=\"Information_o\"></ux-icon> ${1:自定义标题}",
+			"\t</div>",
+			"\t<p>contents</p>",
+			"\t<p>contents</p>",
+			"\t<p>contents</p>",
+			"\t<p>contents</p>",
+			"</ux-modal>"
+		],
+		"description": "模态框-自定义标题"
+	},
+
+	"Modal-footer": {
+		"prefix": "ux-Modal-footer",
+		"body": [
+			"<ux-modal v-model=\"footerVisible\"",
+			"\ttitle=\"Custom Footer\"",
+			" \t@ok=\"onOk($event, 'custom footer')\"",
+			"\t@cancel=\"onCancel($event, 'custom footer')\">",
+			"\t<p>contents</p>",
+			"\t<p>contents</p>",
+			"\t<p>contents</p>",
+			"\t<p>contents</p>",
+			"\t<div slot=\"footer\">",
+			"\t\t<button class=\"ux-btn ux-btn-success\"",
+			"\t\t\t@click=\"onSuccess\">success</button>",
+			"\t</div>",
+			"</ux-modal>"
+		],
+		"description": "模态框-自定义页脚"
+	},
+
+	"alert-success": {
+		"prefix": "ux-alert-success",
+		"body": [
+			"<ux-alert type=\"success\"",
+			"\tmessage=\"${1:Success Tip}\" />"
+		],
+		"description": "Alert-success 告警提示"
+	},
+
+	"alert-warning": {
+		"prefix": "ux-alert-warning",
+		"body": [
+			"<ux-alert type=\"warning\"",
+			"\tmessage=\"${1:warning Tip}\" />"
+		],
+		"description": "Alert-warning 告警提示"
+	},
+
+	"alert-info": {
+		"prefix": "ux-alert-info",
+		"body": [
+			"<ux-alert type=\"info\"",
+			"\tmessage=\"${1:info Tip}\" />"
+		],
+		"description": "Alert-info 告警提示"
+	},
+
+	"alert-error": {
+		"prefix": "ux-alert-error",
+		"body": [
+			"<ux-alert type=\"error\"",
+			"\tmessage=\"${1:error Tip}\" />"
+		],
+		"description": "Alert-error 告警提示"
+	},
+
+	"table": {
+		"prefix": "ux-table",
+		"body": [
+			"<ux-table :columns=\"columns\"",
+			"\t\tv-model=\"data\"",
+			"\t\t:row-selection=\"rowSelection\" />"
+		],
+		"description": "Table表格"
+	},
+
+	"progress-success": {
+		"prefix": "ux-progress-success",
+		"body": [
+			"<ux-progress percentage=\"100\" status=\"${1:success}\"></ux-progress>"
+		],
+		"description": "Progress进度条-成功"
+	},
+
+	"progress-error": {
+		"prefix": "ux-progress-error",
+		"body": [
+			"<ux-progress percentage=\"30\" status=\"${1:error}\"></ux-progress>"
+		],
+		"description": "Progress进度条-失败"
+	},
+
+	"progress-hideInfo": {
+		"prefix": "ux-progress-hideInfo",
+		"body": [
+			"<ux-progress percentage=\"100\" hide-info></ux-progress>"
+		],
+		"description": "Progress进度条-hideInfo"
+	},
+
+	"Switch": {
+		"prefix": "ux-switch",
+		"body": [
+			"<ux-switch checked />"
+		],
+		"description": "Switch开关"
+	},
+
+	"Select": {
+		"prefix": "ux-select",
+		"body": [
+			"<ux-select style=\"width:200px;\">",
+			"\t<ux-option value=\"A\">A</ux-option>",
+			"\t<ux-option value=\"B\">B</ux-option>",
+			"\t<ux-option value=\"C\">C</ux-option>",
+			"</ux-select>"
+		],
+		"description": "Select下拉框"
+	},
+
+	"Select-multiple": {
+		"prefix": "ux-select-multiple",
+		"body": [
+			"<ux-select style=\"width:200px;\" mode=\"multiple\">",
+			"\t<ux-option value=\"A\"",
+			"\t\tlabel=\"A10\">A10</ux-option>",
+			"\t<ux-option value=\"B\"",
+			"\t\tlabel=\"B10\">B10</ux-option>",
+			"\t<ux-option value=\"C\"",
+			"\t\tlabel=\"C10\">C10</ux-option>",
+			"</ux-select>"
+		],
+		"description": "Select下拉框-多选"
+	},
+
+	"Select-search": {
+		"prefix": "ux-select-search",
+		"body": [
+			"<ux-select style=\"width:200px;\" show-search>",
+			"\t<ux-option value=\"A\">A</ux-option>",
+			"\t<ux-option value=\"B\">B</ux-option>",
+			"\t<ux-option value=\"C\">C</ux-option>",
+			"</ux-select>"
+		],
+		"description": "Select下拉框-带搜索框"
+	},
+
+	"pagination": {
+		"prefix": "ux-pagination",
+		"body": [
+			"<ux-pagination",
+			"\tshow-quick-jumper",
+			"\t@change=\"changePage\"",
+			"\t:current=\"pageInfo.currentPage\"",
+			"\t:page-size=\"pageInfo.pageSize\"",
+			"\t:show-before-total=\"showBeforeTotal\"",
+			"\t:show-after-total=\"(total,pageSize, totalPage, pageNo)=>{ return `共${totalPage}页`}\"",
+			"\t:total=\"pageInfo.total\">",
+			"</ux-pagination>"
+		],
+		"description": "pagination分页"
+	},
+
+	"tabs": {
+		"prefix": "ux-tabs",
+		"body": [
+			"<ux-tabs>",
+			"\t<ux-tab-pane tab=\"Tab 1\"",
+			"\t\t\tname=\"1\">",
+			"\t\t${1:Tab 1 Content}",
+			"\t</ux-tab-pane>",
+			"\t<ux-tab-pane tab=\"Tab 2\"",
+			"\t\t\tname=\"2\">",
+			"\t\t${2:Tab 2 Content}",
+			"\t</ux-tab-pane>",
+			"\t<ux-tab-pane tab=\"Tab 3\"",
+			"\t\t\tname=\"3\">",
+			"\t\t${3:Tab 3 Content}",
+			"\t</ux-tab-pane>",
+			"</ux-tabs>"
+		],
+		"description": "Tabs标签页"
+	},
+
+	"datePicker": {
+		"prefix": "ux-datePicker",
+		"body": [
+			"<ux-date-picker show-time placehoder=\"Select Time\"></ux-date-picker>"
+		],
+		"description": "datePicker日期控件"
+	},
+
+	"dateRangePicker": {
+		"prefix": "ux-dateRangePicker",
+		"body": [
+			"<ux-range-date-picker show-time",
+			"\t:placeholder=\"['Start Time', 'End Time']\">",
+			"</ux-range-date-picker>"
+		],
+		"description": "datePicker日期范围控件"
+	}
+
+
+}

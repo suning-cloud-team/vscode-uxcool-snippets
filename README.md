@@ -20,7 +20,7 @@ VSCode插件，UXCool-UI 自动补全
 
 ## 效果
 
-![效果http://otja7p1i5.bkt.clouddn.com/demo.gif](http://otja7p1i5.bkt.clouddn.com/demo.gif)
+![效果https://i.loli.net/2018/05/09/5af2528be650e.gif](https://i.loli.net/2018/05/09/5af2528be650e.gif)
 
 ## 源码
 

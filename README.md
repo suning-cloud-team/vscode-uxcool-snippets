@@ -5,4 +5,3 @@ VSCode代码自动补充插件，UXCool-UI 自动补全
 
 ## 效果
 
-![performance](./gif/page.PNG)
